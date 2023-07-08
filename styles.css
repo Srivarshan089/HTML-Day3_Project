@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 211, 138);
+
+}
+.box{
+    border: 5px solid rgba(75, 73, 68, 0.95);
+    padding:20px;
+    width:275px;
+    height:400px;
+    background-color: cyan;
+    transition:transform 0.5s linear;
+
+}
+.box:hover{
+    transform: scale(1.2);
+}

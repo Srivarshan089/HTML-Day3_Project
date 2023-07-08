@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body><div class="box">
+    <form>
+        <label for="fname"> Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Email:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label> Password:</label>
+        <input type="password"><br><br>
+        <label>Phone Number:</label>
+        <input type="text"><br><br>
+        <label> Gender:</label>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="female">Female:</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="other">Other:</label>
+        <input type="radio" id="other" value="other" name="gender"><br><br>
+        <label>Language:</label>
+        <select id="lang" name="Languages">
+            <option value="Tamil" selected>Tamil</option>
+            <option value="English">English</option>
+            <option value="Mala">Malayalam</option>
+            <option value="Kan">Kannada</option>
+            <option value="Hin">Hindi</option>
+        </select><br><br>
+        <label for="pin">Pin Code:</label>
+        <input type="number" id="pin"  name="pincode"><br><br>
+        <label>About</label>
+        <textarea id="message" rows="5" cols="25">Write your comments</textarea><br><br>
+        <input type="submit" value="Register">        
+    </form>
+</div>
+</body>
+</html>
